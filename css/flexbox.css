@@ -1,0 +1,135 @@
+
+.encabezado .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.sección{
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+.logo{
+    width: 1.5em;
+    margin-right: 2%;
+}
+.menúItems{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+.mainUno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainDos{
+    display: flex;
+}
+.skills{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+#skillTitle{
+    padding-top: 5%;
+}
+.mainCinco{
+    display: block;
+    width: 100%;
+}
+.mainSeis{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainSiete{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainOcho{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.encriptador{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.ahorcado{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.xilofone{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+.imagenProyectoEncriptador{
+    display: flex;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.imagenProyectoAhorcado{
+    display: flex;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.imagenProyectoXilofon{
+    display: flex;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.nombreProyectoEncriptador{
+    width: 20%;
+    margin-right: 20%;
+}
+.nombreProyectoAhorcado{
+    width: 20%;
+    margin-left: 20%;
+}
+.nombreProyectoXilofon{
+    width: 20%;
+    margin-right: 20%;
+}
+.mainNueve{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerNueve{
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+.formulario {
+    display: block;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.form, label, input{
+    display: block;
+}
