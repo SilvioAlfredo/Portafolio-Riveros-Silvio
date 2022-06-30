@@ -7,17 +7,16 @@ a{
 .encabezado{
     background-color: #F2F5F7;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    filter: invert(100%);
 }
 .nombre{
     font-size: 2em;
 }
-body{
-    background-color: black;
-}
+
 .mainUno{
     padding-top: 2%;
     background-color: #F2F5F7;
-    
+    filter: invert(100%);
 }
 .containerIntro{
     margin-left: 5%;
@@ -41,14 +40,16 @@ body{
     margin-right: 4%;
 }
 .fotoPerfil{
-    width: 250px;
+    width: 280px;
     border-radius: 100%;
     margin-right: 8%;
     padding: 2%;
     box-shadow: 10px, 10px, 10px, #555555;
+    filter: invert(100%);
 }
 .mainDos{
     background-color: #EAF2FD;
+    filter: invert(100%);
 }
 .abstract{
     margin-right: 5%;
@@ -68,7 +69,7 @@ body{
 }
 .mainTres{
     background-color: #F2F5F7;
-    
+    filter: invert(100%);
 }
 #skillTitle{
     font-size: 2.5em;
@@ -78,7 +79,7 @@ body{
 }
 .skills{
     text-align: center;
-    font-size: 1em;
+    font-size: 70%;
     font-weight: bold;
 }
 .skillsItem{
@@ -87,13 +88,16 @@ body{
     border-width: 1px;
     border-color: #222222;
     padding: 5px;
+    width: 100px;
 }
 .imagenhabilidades{
-    width: 100%;
+    width: 100px;
+    filter: invert(100%);
 }
 .mainCuatro{
     background-color: #F2F5F7;
     padding-bottom: 3%;
+    filter: invert(100%);
 }
 
 #hobbiesTitle{
@@ -106,6 +110,7 @@ body{
 .mainCinco{
     background-color: #EAF2FD;
     padding-bottom: 3%;
+    filter: invert(100%);
 }
 #FormaciónTitle{
     font-size: 2.5em;
@@ -115,11 +120,14 @@ body{
     padding-bottom: 2%;
 }
 .imagenFormacion{
-    width: 100%;
+    width: 90%;
+
+    filter: invert(100%);
 }
 .mainSeis{
     background-color: #F2F5F7;
     padding-bottom: 3%;
+    filter: invert(100%);
 }
 #ExperienciaTitle{
     font-size: 2.5em;
@@ -131,10 +139,12 @@ body{
 .mainSiete{
     background-color: #F2F5F7;
     padding-bottom: 3%;
+    filter: invert(100%);
 }
 .mainOcho{
     background-color: #F2F5F7;
     padding-bottom: 3%;
+    filter: invert(100%);
 }
 .nombreProyectoEncriptador h4{
     font-size: 1.3em;
@@ -194,9 +204,10 @@ body{
 .mainNueve{
     background-color: #EAF2FD;
     width: 100%;
+    filter: invert(100%);
 }
 .imagencontacto{
-    width: 50%;
+    width: 40%;
     margin-left: 10%;
 }
 #Contacto{

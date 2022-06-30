@@ -18,7 +18,7 @@
 .menúItems{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
     align-items: center;
 }
 .mainUno{
@@ -41,6 +41,13 @@
 .mainCinco{
     display: block;
     width: 100%;
+}
+.formaciones{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .mainSeis{
     display: block;
@@ -86,18 +93,21 @@
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
+    filter: invert(100%);
 }
 .imagenProyectoAhorcado{
     display: flex;
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
+    filter: invert(100%);
 }
 .imagenProyectoXilofon{
     display: flex;
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
+    filter: invert(100%);
 }
 .nombreProyectoEncriptador{
     width: 20%;
@@ -132,4 +142,305 @@
 }
 .form, label, input{
     display: block;
+}
+/*resposive*/
+@media(max-width: 768px){
+    .sección{
+        width: 60%;
+    }
+    .menúItems{
+        justify-content: flex-end;
+        margin-right: 5%;
+        width: 30%;
+        align-items: flex-end;
+    }
+    .menú1{
+        display: none;
+    }
+    .fotoPerfil{
+        width: 200px;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 35% 35% 33%;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .skillsItem{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .imagenhabilidades{
+        width: 100%;
+    }
+    .mainTres{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenFormacion{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .formaciones{
+        justify-content: space-between;
+        display: flex;
+    }
+    .formaciónsItem{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        justify-content: space-between;
+    }
+    .formaciónsItem h4{
+        font-size: 100%;
+    }
+    .mainSeis{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainSiete{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainNueve{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .encriptador {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+        
+    }
+    .imagenProyectoEncriptador{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .nombreProyectoEncriptador{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .ahorcado{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+    .imagenProyectoAhorcado{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .nombreProyectoAhorcado{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .xilofone{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 400px;
+        
+    }
+    .imagenProyectoXilofon{
+        width: 100%;
+    }
+    .nombreProyectoXilofon{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .imagencontacto{
+        display: none;
+    }
+    .formulario{
+        width: 98%;
+    }
+    .form .campoNombre .campoEmail .campoAsunto .mensaje{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+}
+@media(max-width: 480px){
+    .sección{
+        width: 60%;
+    }
+    .menúItems{
+        justify-content: flex-end;
+        margin-right: 5%;
+        width: 30%;
+        align-items: flex-end;
+    }
+    .menú1{
+        display: none;
+    }
+    .mainUno{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fotoPerfil{
+        width: 100px;
+    }
+    .containerIntro{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .abstract{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .skillsItem{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .imagenhabilidades{
+        width: 100%;
+    }
+    .mainTres{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenFormacion{
+        width: 90%;
+        
+    }
+    .formaciones{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .formaciónsItem{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .formaciónsItem h4{
+        font-size: 100%;
+    }
+    .mainSeis{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainSiete{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainNueve{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .encriptador {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+        
+    }
+    .imagenProyectoEncriptador{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .nombreProyectoEncriptador{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .ahorcado{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+    .imagenProyectoAhorcado{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .nombreProyectoAhorcado{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .xilofone{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 400px;
+        
+    }
+    .imagenProyectoXilofon{
+        width: 100%;
+    }
+    .nombreProyectoXilofon{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .imagencontacto{
+        display: none;
+    }
+    .formulario{
+        width: 98%;
+    }
+    .form .campoNombre .campoEmail .campoAsunto .mensaje{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
 }
