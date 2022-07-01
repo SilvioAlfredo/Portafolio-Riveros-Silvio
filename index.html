@@ -33,8 +33,7 @@
                     <h4 class="descripción">Estoy formado en tecnologias de desarrollo web con html, css y Javascript, y además en Java</h4>
                     <a href="https://github.com/SilvioAlfredo" target="_blank">Github <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
                     <a href="www.linkedin.com/in/silvio-riveros" target="_blank">Linkedin <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
-                    <a href="">Instagram <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
-                    <a href="">Curriculo <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
+                    <a href="./img/Riveros silvio.pdf" target="_blank">Curriculo <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
                 </div>
                 <img class="fotoPerfil" src="./img/IMG_20220221_100854213.jpg">
             </section>
@@ -135,20 +134,22 @@
                         <h4 id="Contacto">Contacto</h4>
                         <p class="texto">¿Quieres contactarme?<br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                         <div class="form">
-                            <form action="mailto:silvio.riveros.94@gmail.com">
+                            <form id="form">
                                 <label for="nombre">Nombre</label>
-                                <input class="campoNombre" type="text" id="nombre">
+                                <input class="campoNombre" type="text" id="nombre" placeholder="¿Cual es su nombre?" name="name" maxlength="50" required>
 
                                 <label for="correoElectrónico"> Correo Electrónico</label>
-                                <input class="campoEmail" type="text" id="correoElectrónico">
+                                <input class="campoEmail" type="email" id="correoElectrónico" placeholder="texto@texto.com" name="email"  maxlength="50" required>
 
                                 <label for="asunto">Asunto</label>
-                                <input class="campoAsunto" type="text" id="asunto">
+                                <input class="campoAsunto" type="text" id="asunto" placeholder="¿cual es su asunto?" name="asunto"  maxlength="50" required>
 
-                                <textarea class="mensaje" placeholder="Mensaje"></textarea>
-
-                                <buton type="submit" value="Enviar mensaje" class="botonEnviar">
+                                <textarea type="text" class="mensaje" placeholder="Mensaje" name="message"  maxlength="300" required></textarea>
+                                <input type="submit"  id="button" value="Enviar mensaje" class="botonEnviar">
                             </form>
+                            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                            <script type="text/javascript"> emailjs.init('b2V7O-ng_I3KyVUBo') </script>
                         </div>
                     </div>
                 </div>
@@ -160,4 +161,5 @@
         </footer>
     </body>
     <script src="./js/botones.js"></script>
+    <script src="./js/form.js"></script>
 </html>
