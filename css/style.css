@@ -1,3 +1,8 @@
+:root{
+    --colorwhite: #c6e7fce7;
+    --colorblue: #8ac6e9e7;
+    --colorencabezado: #042a50;
+}
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -5,248 +10,43 @@ a{
     text-decoration: none;
 }
 .encabezado{
-    background-color: #F2F5F7;
+    background-color: var(--colorencabezado);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    filter: invert(100%);
+    
 }
-.nombre{
-    font-size: 2em;
+.nombreTitulo, .menúItems, .profesion, #sobreMi, #skillTitle, .skills, #hobbiesTitle, #FormaciónTitle, #ExperienciaTitle, .nombreProyectoEncriptador h4, .nombreProyectoAhorcado h4, .nombreProyectoXilofon h4{
+    font-weight: bold;
 }
 
-.mainUno{
-    padding-top: 2%;
-    background-color: #F2F5F7;
-    filter: invert(100%);
-}
-.containerIntro{
-    margin-left: 5%;
-}
-.nombreTitulo{
-    font-size: 2.3em;
-    font-weight: bold;
-    padding-bottom: 0.7%;
-}
-.profesion{
-    font-size: 1.4em;
-    font-weight: bold;
-    padding-bottom: 2%;
-}
-.descripción{
-    font-size: 1em;
-    padding-bottom: 3%;
-}
-.iconRedes{
-    width: 0.5em;
-    margin-right: 4%;
-}
 .fotoPerfil{
-    width: 280px;
-    border-radius: 100%;
-    margin-right: 8%;
-    padding: 2%;
     box-shadow: 10px, 10px, 10px, #555555;
-    filter: invert(100%);
 }
-.mainDos{
-    background-color: #EAF2FD;
-    filter: invert(100%);
+.mainUno, .mainTres, .mainCinco, .mainSiete, .mainNueve{
+    background-color: var(--colorwhite);
 }
-.abstract{
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 80%;
-}
-#sobreMi{
-    font-size: 2.3em;
-    font-weight: bold;
-    margin-bottom: 1%;
-    padding-top: 3%;
-}
-.parrafo{
-    font-size: 1.1em;
-    line-height: normal;
-    text-align: justify;
-}
-.mainTres{
-    background-color: #F2F5F7;
-    filter: invert(100%);
-}
-#skillTitle{
-    font-size: 2.5em;
-    font-weight: bold;
-    text-align: center;
-    padding: 2%;
-}
-.skills{
-    text-align: center;
-    font-size: 70%;
-    font-weight: bold;
+.mainDos, .mainCuatro, .mainSeis, .mainOcho{
+    background-color: var(--colorblue);
 }
 .skillsItem{
-    box-shadow: 3px 3px 3px#bec9ca;
-    border-style:hidden;
-    border-width: 1px;
+    box-shadow: 3px 3px 3px#6b9194;
     border-color: #222222;
-    padding: 5px;
-    width: 100px;
-}
-.imagenhabilidades{
-    width: 100px;
-    filter: invert(100%);
-}
-.mainCuatro{
-    background-color: #F2F5F7;
-    padding-bottom: 3%;
-    filter: invert(100%);
 }
 
-#hobbiesTitle{
-    font-size: 2.5em;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 2%;
+.demoEncriptador,.repositorioAhorcado{
+    background-color: var(--colorblue);
+    color: --colorwhite;
 }
-.mainCinco{
-    background-color: #EAF2FD;
-    padding-bottom: 3%;
-    filter: invert(100%);
+.repositorioEncriptador, .demoAhorcado, .repositorioXilofon, .botonEnviar{
+    background-color: var(--colorwhite);
+    border-color: var(--colorblue);
+    color: var(--colorblue);
 }
-#FormaciónTitle{
-    font-size: 2.5em;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-.imagenFormacion{
-    width: 90%;
 
-    filter: invert(100%);
-}
-.mainSeis{
-    background-color: #F2F5F7;
-    padding-bottom: 3%;
-    filter: invert(100%);
-}
-#ExperienciaTitle{
-    font-size: 2.5em;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-.mainSiete{
-    background-color: #F2F5F7;
-    padding-bottom: 3%;
-    filter: invert(100%);
-}
-.mainOcho{
-    background-color: #F2F5F7;
-    padding-bottom: 3%;
-    filter: invert(100%);
-}
-.nombreProyectoEncriptador h4{
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.nombreProyectoEncriptador p{
-    font-size: 1em;
-    margin-bottom: 5px;
-}
-.nombreProyectoAhorcado h4{
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.nombreProyectoAhorcado p{
-    font-size: 1em;
-    margin-bottom: 5px;
-}
-.nombreProyectoXilofon h4{
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.nombreProyectoXilofon p{
-    font-size: 1em;
-    margin-bottom: 5px;
-}
-.demoEncriptador{
-    background-color: #2A7AE4;
-    padding: 10px;
-    color: #EAF2FD;
-}
-.repositorioEncriptador{
-    background-color: #EAF2FD;
-    padding: 10px;
-    border-color: #2A7AE4;
-    color: #2A7AE4;
-}
-.repositorioAhorcado{
-    background-color: #2A7AE4;
-    padding: 10px;
-    color: #EAF2FD;
-}
-.demoAhorcado{
-    background-color: #EAF2FD;
-    padding: 10px;
-    border-color: #2A7AE4;
-    color: #2A7AE4;
-}
-.repositorioXilofon{
-    background-color: #EAF2FD;
-    padding: 10px;
-    border-color: #2A7AE4;
-    color: #2A7AE4;
-}
-.mainNueve{
-    background-color: #EAF2FD;
-    width: 100%;
-    filter: invert(100%);
-}
-.imagencontacto{
-    width: 40%;
-    margin-left: 10%;
-}
-#Contacto{
-    font-size: 2em;
-    margin-bottom: 5%;
-    padding-top: 5%;
-}
-.texto{
-    font-size: 0.9em;
-    margin-bottom: 5%;
-}
-input{
-    border: none;
-    width: 98%;
-    margin-bottom: 5%;
-}
 label{
-    background-color: white;
-    width: 99%;
+    background-color: var(--colorwhite);
     color: #555555;
-    font-size: 0.9em;
 }
-textarea{
-    border: none;
-    width: 98%;
-    height: 100px;
-    margin-bottom: 5%;
-}
-.botonEnviar{
-    background-color: #2A7AE4;
-    padding: 10px;
-    border-color: #2A7AE4;
-    color: #EAF2FD;
-    width: auto;
-}
+
 .rodapié{
-    background-color: #F2F5F7;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.1em;
-    padding: 1%;
+    background-color:  var(--colorencabezado);
 }

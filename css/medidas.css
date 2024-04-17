@@ -1,0 +1,189 @@
+.nombre{
+    font-size: 2em;
+}
+.encabezado{
+    padding-bottom: 2%;
+}
+.menúItems{
+    font-size: 3vh;
+}
+.mainUno{
+    padding: 2%;
+}
+.containerIntro{
+    margin: 5%;
+}
+.nombreTitulo{
+    font-size: 10vh;
+    padding-bottom: 0.7%;
+}
+.profesion{
+    font-size: 5vh;
+    padding-bottom: 2%;
+}
+.descripción{
+    font-size: 4vh;
+    padding-bottom: 3%;
+}
+.iconRedes{
+    width: 0.5em;
+    margin-right: 4%;
+}
+.fotoPerfil{
+    width: 280px;
+    border-radius: 100%;
+    margin-right: 8%;
+    padding: 2%;
+}
+
+.abstract{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 80%;
+}
+#sobreMi{
+    font-size: 2.3em;
+    margin-bottom: 1%;
+    padding-top: 3%;
+}
+.parrafo{
+    font-size: 1.1em;
+    line-height: normal;
+    text-align: justify;
+}
+
+#skillTitle{
+    font-size: 2.5em;
+    text-align: center;
+}
+.skills{
+    text-align: center;
+    font-size: 70%;
+    padding: 5vh;
+}
+.skillsItem{
+    border-style:hidden;
+    border-width: 1px;
+    padding: 5px;
+    width: 100px;
+}
+.imagenhabilidades{
+    width: 100px;
+}
+.mainCuatro{
+    padding-bottom: 3%;
+}
+
+#hobbiesTitle{
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.mainCinco{
+    padding-bottom: 3%;
+}
+#FormaciónTitle{
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.imagenFormacion{
+    width: 90%;
+}
+.mainSeis{
+    padding-bottom: 3%;
+}
+#ExperienciaTitle{
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.mainSiete{
+    padding-bottom: 3%;
+}
+.mainOcho{
+    padding-bottom: 3%;
+}
+.nombreProyectoEncriptador h4{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.nombreProyectoEncriptador p{
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.nombreProyectoAhorcado h4{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.nombreProyectoAhorcado p{
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.nombreProyectoXilofon h4{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.nombreProyectoXilofon p{
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.demoEncriptador{
+    padding: 10px;
+}
+.repositorioEncriptador{
+    padding: 10px;
+}
+.repositorioAhorcado{
+    padding: 10px;
+}
+.demoAhorcado{
+    padding: 10px;
+}
+.repositorioXilofon{
+    padding: 10px;
+}
+.mainNueve{
+    width: 100%;
+}
+.imagencontacto{
+    width: 40%;
+    margin-left: 10%;
+}
+#Contacto{
+    font-size: 2em;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+.texto{
+    font-size: 0.9em;
+    margin-bottom: 5%;
+}
+input{
+    border: none;
+    width: 98%;
+    margin-bottom: 5%;
+}
+label{
+    width: 99%;
+    font-size: 0.9em;
+}
+textarea{
+    border: none;
+    width: 98%;
+    height: 100px;
+    margin-bottom: 5%;
+}
+.botonEnviar{
+    padding: 10px;
+    width: auto;
+}
+.rodapié{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    padding: 1%;
+}
