@@ -19,7 +19,7 @@ function generarEstructuras(ruta,contenedor,claseli,claseImg){
       // En esta línea se crea una constante a la cual se le asigna la creación de un elemento <li>
       const nuevoLi = document.createElement('li');
       // nuevoLi accede a la función inner... y se le asigna una estructura de html
-      nuevoLi.innerHTML = `<img class="${claseImg}" src="${src}" alt="${titulo}"><h4 class="stringHabilidades"><strong>${titulo}</strong><br>${subtitle}<br>${location}</h4>`;
+      nuevoLi.innerHTML = `<img class="${claseImg}" src="${src}" alt="${titulo}"><h4 class="stringFormacion">${titulo}<br>${subtitle}<br>${location}</h4>`;
       nuevoLi.classList.add(claseli);
       contenedor.appendChild(nuevoLi);
     }

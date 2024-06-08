@@ -93,21 +93,18 @@
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
-    filter: invert(100%);
 }
 .imagenProyectoAhorcado{
     display: flex;
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
-    filter: invert(100%);
 }
 .imagenProyectoXilofon{
     display: flex;
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
-    filter: invert(100%);
 }
 .nombreProyectoEncriptador{
     width: 20%;

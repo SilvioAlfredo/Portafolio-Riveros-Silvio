@@ -1,26 +1,26 @@
 [
   {
-    "title": "Tecnicatura Superior en Desarrollo de Software.",
+    "title": "Tec. Sup. en Desarrollo de Software.",
     "subtitle": "Escuela Superior De Comercio.",
     "location": "Río Tercero.",
-    "src": "..."
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/formaci%C3%B3n/Captura%20desde%202024-06-03%2016-06-03.png"
   },
   {
     "title": "Profesorado de Música.",
     "subtitle": "Conservatorio: Juan José Castro.",
     "location": "Río Tercero.",
-    "src": "..."
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/formaci%C3%B3n/image.png"
   },
   {
     "title": "Diplomatura en programación Java.",
     "subtitle": "FRBA - UTN",
-    "location": "Buenos Aires",
-    "src": "..."
+    "location": "A distancia",
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/formaci%C3%B3n/utn.0001.jpg"
   },
   {
-    "title": "Alura",
-    "subtitle": "Cursos Online (Programa ONE)",
+    "title": "Programa ONE",
+    "subtitle": "Alura Cursos Online",
     "location": "A distancia",
-    "src": "..."
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/formaci%C3%B3n/Experiencia.png"
   }
 ]
