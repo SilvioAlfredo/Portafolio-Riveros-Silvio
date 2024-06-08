@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tecnicatura Superior en Desarrollo de Software.",
+    "subtitle": "Escuela Superior De Comercio.",
+    "location": "Río Tercero.",
+    "src": "..."
+  },
+  {
+    "title": "Profesorado de Música.",
+    "subtitle": "Conservatorio: Juan José Castro.",
+    "location": "Río Tercero.",
+    "src": "..."
+  },
+  {
+    "title": "Diplomatura en programación Java.",
+    "subtitle": "FRBA - UTN",
+    "location": "Buenos Aires",
+    "src": "..."
+  },
+  {
+    "title": "Alura",
+    "subtitle": "Cursos Online (Programa ONE)",
+    "location": "A distancia",
+    "src": "..."
+  }
+]

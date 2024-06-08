@@ -2,9 +2,6 @@
 .encabezado .container{
     display: flex;
     justify-content: space-between;
-    padding-top: 2%;
-    margin-right: 5%;
-    margin-left: 5%;
 }
 .sección{
     display: flex;
@@ -28,6 +25,9 @@
 }
 .mainDos{
     display: flex;
+}
+.firma{
+    justify-content: space-around;
 }
 .skills{
     display: flex;

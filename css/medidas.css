@@ -1,29 +1,41 @@
+.logo{
+    width: 600px;
+}
+
 .nombre{
-    font-size: 2em;
+    font-size: 4vh;
 }
 .encabezado{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+}
+.container{
+    padding-top: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .menúItems{
-    font-size: 3vh;
+    font-size: 2.3vh;
 }
 .mainUno{
-    padding: 2%;
+    padding: 1%;
 }
 .containerIntro{
-    margin: 5%;
+    margin: 2% 5% 2% 5%;
 }
 .nombreTitulo{
-    font-size: 10vh;
-    padding-bottom: 0.7%;
+    font-size: 9.5vh;
+    padding-bottom: 1%;
 }
 .profesion{
     font-size: 5vh;
     padding-bottom: 2%;
 }
 .descripción{
-    font-size: 4vh;
+    font-size: 3.8vh;
     padding-bottom: 3%;
+}
+.enlaceRedes{
+    font-size: 3vh;
 }
 .iconRedes{
     width: 0.5em;
@@ -70,6 +82,9 @@
 .imagenhabilidades{
     width: 100px;
 }
+.stringHabilidades{
+    font-size: 3vh;
+}
 .mainCuatro{
     padding-bottom: 3%;
 }
@@ -90,7 +105,7 @@
     padding-bottom: 2%;
 }
 .imagenFormacion{
-    width: 90%;
+    width: 300px;
 }
 .mainSeis{
     padding-bottom: 3%;

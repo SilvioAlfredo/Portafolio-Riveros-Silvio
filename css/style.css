@@ -1,7 +1,7 @@
 :root{
     --colorwhite: #c6e7fce7;
     --colorblue: #8ac6e9e7;
-    --colorencabezado: #042a50;
+    --colorencabezado: #030f1b;
 }
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,12 +12,27 @@ a{
 .encabezado{
     background-color: var(--colorencabezado);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    color: white;
+    .logo{
+        filter: invert(100%);
+    }
+    .menúItems, .menú1{
+        color: white;
+    }
+    .menú{
+        color:aquamarine;
+    }
 }
 .nombreTitulo, .menúItems, .profesion, #sobreMi, #skillTitle, .skills, #hobbiesTitle, #FormaciónTitle, #ExperienciaTitle, .nombreProyectoEncriptador h4, .nombreProyectoAhorcado h4, .nombreProyectoXilofon h4{
     font-weight: bold;
 }
-
+.descripción{
+    font-style: italic;
+}
+.enlaceRedes{
+    font-weight: bold;
+    font-style: italic;
+}
 .fotoPerfil{
     box-shadow: 10px, 10px, 10px, #555555;
 }
@@ -49,4 +64,6 @@ label{
 
 .rodapié{
     background-color:  var(--colorencabezado);
+    color:white;
+    font-weight: bold;
 }

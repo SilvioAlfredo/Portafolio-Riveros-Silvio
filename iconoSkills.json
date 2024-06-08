@@ -1,26 +1,30 @@
 [
   {
-    "title": "Godot",
-    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/iconoGodot.0009.png"
-  },
-  {
     "title": "CSS",
-    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/iconocss.0005.png"
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoCSS.0005.png"
   },
   {
     "title": "HTML",
-    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/iconohtml.0004.png"
-  },
-  {
-    "title": "Java",
-    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/iconojava.0008.png"
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoHTML.0004.png"
   },
   {
     "title": "Javascript",
-    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/iconojavascript.0006.png"
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoJAVASCRIPT.0006.png"
+  },
+  {
+    "title": "Java",
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoJAVA.0008.png"
   },
   {
     "title": "C++",
-    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/iconojc%2B%2B.0007.png"
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoC%2B%2B.0007.png"
+  },
+  {
+    "title": "MySQL",
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoMYSQL.png"
+  },
+  {
+    "title": "Python",
+    "src": "https://raw.githubusercontent.com/SilvioAlfredo/Portafolio-Riveros-Silvio/master/img/skills/iconoPYTHON.png"
   }
 ]

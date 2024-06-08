@@ -7,13 +7,14 @@
         <link rel = "stylesheet" href="./css/reset.css">
         <link rel = "stylesheet" href="./css/style.css">
         <link rel = "stylesheet" href="./css/medidas.css">
-        <link rel = "stylesheet" href="./css/flexbox.css">        
+        <link rel = "stylesheet" href="./css/flexbox.css">   
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/> 
     </head>
     <body>
         <header class="encabezado">
             <div class="container">
                 <div class="sección">
-                    <img class="logo" src="./img/icono.0001.png">
+                    <img class="logo" src="./img/otrosIconos/icono.0001.png">
                     <h3 class="nombre">Riveros Silvio</h3>
                 </div>
                 <nav class="menúItems">
@@ -29,31 +30,29 @@
         <main>
             <section class="mainUno"><!--Presentación y foto de perfil-->
                 <div class="containerIntro">
-                    <h2 class="nombreTitulo">Hola, soy Silvio Alfredo Riveros.</h2>
+                    <h2 class="nombreTitulo">Hola, soy Silvio Riveros.</h2>
                     <h3 class="profesion">Student Software Development</h3>
-                    <h4 class="descripción">Estoy formado en áreas como la docencia, y me esoy capacitando en desarrollo de software.</h4>
-                    <a href="https://github.com/SilvioAlfredo" target="_blank">Github <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
-                    <a href=" www.linkedin.com/in/silvioRiveros" target="_blank">Linkedin <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
-                    <a href="./img/Riveros silvio.pdf" target="_blank">Curriculo <img class="iconRedes" src="./img/iconoRedes.0002.png"></a>
+                    <h4 class="descripción">Estoy formado como docente, y actualmente me estoy capacitando en desarrollo de software.</h4>
+                    <a class="enlaceRedes" href="https://github.com/SilvioAlfredo" target="_blank">Github <img class="iconRedes" src="./img/otrosIconos/iconoRedes.0002.png"></a>
+                    <a class="enlaceRedes" href=" www.linkedin.com/in/silvioRiveros" target="_blank">Linkedin <img class="iconRedes" src="./img/otrosIconos/iconoRedes.0002.png"></a>
+                    <a class="enlaceRedes" href="./img/Riveros silvio.pdf" target="_blank">Curriculo <img class="iconRedes" src="./img/otrosIconos/iconoRedes.0002.png"></a>
                 </div>
-                <img class="fotoPerfil" src="./img/IMG_20220221_100854213.jpg">
+                <img class="fotoPerfil" src="./img/otrosIconos/IMG_20220221_100854213.jpg">
             </section>
             <section class="mainDos"><!--Abstract-->
                 <div class="abstract">
                     <h4 id="sobreMi">Sobre mi</h4>
-                    <p class="parrafo">
-                        Soy estudiante de la Tecnicatura Superior en Desarrollo de Software, que se dicta en la Escuela Superior de Comercio (Río Tercero, Córdoba, Argentina).
-                        <br> 
-                        Soy una persona a la cual le apasiona descubrir cosas nuevas, sean herramientas, conocimientos, y enfrentarme a desafíos, también considero de importancia el trabajo en equipo, el orden y la practicidad.
-                        <br>
-                        Sobre mi formación puedo decir: 
-                    </p>
-                    <ol>
+                    <p class="parrafo"> Soy estudiante de la Tecnicatura Superior en Desarrollo de Software, que se dicta en la Escuela Superior de Comercio (Río Tercero, Córdoba, Argentina).</p>
+                    <p class="parrafo"> Me apasiona descubrir cosas nuevas, sean herramientas, conocimientos, y enfrentarme a desafíos, también considero de importancia el trabajo en equipo, el orden y la practicidad.</p>
+                    <p class="parrafo">Sobre mi formación puedo decir: </p>
+
+                    <ul class="parrafo">
                         <li>Profesor de Música recibido en el año 2022 (Conservatorio Superior de música Juan José Castro. Río Tercero, Córdoba, Argentina)</li>
                         <li>Oracle Next Education 2022</li>
                         <li>Diplomatura en programación Java (frba - UTN)</li>
-                    </ol>
-                    <img class="firma" src="./img/iconofirma.0003.png">
+                    </ul>
+
+                    <img class="firma" src="./img/otrosIconos/iconofirma.0003.png">
                 </div>
             </section>
             <section class="mainTres"><!--Skills-->
@@ -63,8 +62,7 @@
             </section>
             <section class="mainCuatro"><!--Hobbies-->
                 <h3 id="hobbiesTitle">Hobbies</h3>
-                <ul class="skills">
-                    <li class="skillsItem"><img class="imagenhabilidades" src="./img/iconoDibujo.0013.png"><h4>DIBUJO</h4></li>
+                <ul class="skills" id="contenedorHobbies">
                 </ul>
             </section>
             <section class="mainCinco"><!--Formación académica-->
@@ -72,7 +70,7 @@
                     <h3 id="FormaciónTitle">Formación Académica</h3>
                 </div>
                 
-                <ul class="formaciones">
+                <ul class="formaciones carrucel">
                     <li class="formaciónsItem"><img class="imagenFormacion" src="./img/utn.0001.jpg"><h4><strong>Diplomatura en programación java<br></strong>2016 - UTN </h4></li>
                 </ul>
             </section>
@@ -152,4 +150,6 @@
     <script src="./js/botones.js"></script>
     <script src="./js/form.js"></script>
     <script src="./js/estructuras.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/carrucel.js"></script>
 </html>
