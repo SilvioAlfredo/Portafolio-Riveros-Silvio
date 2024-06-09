@@ -1,0 +1,90 @@
+
+@media(max-width: 480px){
+  .encabezado .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .sección{
+      display: flex;
+      width: 35%;
+      align-items: center;
+  }
+  .logo{
+      width: 1.5em;
+      margin-right: 2%;
+  }
+  .menúItems{
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      align-items: center;
+  }
+  .mainUno{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .mainDos, .mainTres, .mainCuatro, .mainCinco{
+      display: flex;
+      flex-direction: column;
+  }
+  .skills{
+      display:grid;
+      grid-template-columns: 50% 50%;
+      justify-content: space-around;
+  }
+  #skillTitle{
+      padding-top: 5%;
+  }
+  .formaciones{
+      display:grid;
+      grid-template-columns: 50% 50%;
+      justify-content: space-around;
+  }
+  .mainSeis, .mainSiete, .mainOcho{
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .encriptador, .ahorcado, .xilofone{
+      display:flex;
+      justify-content: space-between;
+      padding-top: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      align-items: center;
+  }
+  .imagenProyectoEncriptador, .imagenProyectoAhorcado, .imagenProyectoXilofon{
+      display: flex;
+      width: 40%;
+      margin-right: 5%;
+      margin-left: 5%;
+  }
+  .nombreProyectoEncriptador, .nombreProyectoAhorcado, .nombreProyectoXilofon{
+      width: 20%;
+      margin-right: 20%;
+  }
+  .mainNueve{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .containerNueve{
+      display: flex;
+      width: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+      align-items: center;
+  }
+  .formulario {
+      display: block;
+      justify-content: space-between;
+      width: 50%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  .form, label, input{
+      display: block;
+  }
+}

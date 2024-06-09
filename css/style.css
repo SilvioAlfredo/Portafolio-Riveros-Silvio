@@ -1,3 +1,5 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 :root{
     --colorwhite: #c6e7fce7;
     --colorblue: #8ac6e9e7;
