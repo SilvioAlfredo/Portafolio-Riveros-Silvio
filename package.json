@@ -1,4 +1,13 @@
 {
+  "name": "portafolios",
+  "version": "1.0.0",
+  "description": "Este es un portafolios personal en el que usaré nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "start dev"
+  },
+  "author": "Riveros Silvio Alfredo",
+  "license": "ISC",
   "dependencies": {
     "slick-carousel": "^1.8.1"
   }
