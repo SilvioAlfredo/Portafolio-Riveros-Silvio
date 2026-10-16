@@ -6,7 +6,7 @@ const SERVICE_ID = 'default_service';
 const TEMPLATE_ID = 'template_gxu3hq9';
 const PUBLIC_KEY = 'b2V7O-ng_I3KyVUBo';
 
-export function ContactModal({ open, onClose }) {
+export function ContactModal({ open, onClose, initialAsunto = '', initialMessage = '' }) {
   const formRef = useRef(null);
   const [status, setStatus] = useState({ type: 'idle', message: '' });
 
@@ -22,6 +22,15 @@ export function ContactModal({ open, onClose }) {
       document.body.style.overflow = '';
     };
   }, [open, onClose]);
+
+  useEffect(() => {
+    if (!open) return;
+    setStatus({ type: 'idle', message: '' });
+    if (formRef.current) {
+      if (initialAsunto) formRef.current.asunto.value = initialAsunto;
+      if (initialMessage) formRef.current.message.value = initialMessage;
+    }
+  }, [open, initialAsunto, initialMessage]);
 
   if (!open) return null;
 
@@ -134,6 +143,7 @@ export function ContactModal({ open, onClose }) {
               placeholder="¿Cuál es su asunto?"
               maxLength={50}
               required
+              defaultValue={initialAsunto}
               className="w-full rounded-lg border border-slate-700 bg-[#090d10] px-3 py-2 text-slate-100 placeholder:text-slate-600 focus:border-sky-500 focus:outline-none"
             />
           </div>
@@ -149,6 +159,7 @@ export function ContactModal({ open, onClose }) {
               maxLength={300}
               required
               rows={4}
+              defaultValue={initialMessage}
               className="w-full resize-none rounded-lg border border-slate-700 bg-[#090d10] px-3 py-2 text-slate-100 placeholder:text-slate-600 focus:border-sky-500 focus:outline-none"
             />
           </div>

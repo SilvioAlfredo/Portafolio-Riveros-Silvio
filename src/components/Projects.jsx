@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import { ContactModal } from './ContactModal';
 
 export const Projects = () => {
   // Estado para controlar qué video se está reproduciendo (guarda la URL del video o null si está cerrado)
   const [activeVideoUrl, setActiveVideoUrl] = useState(null);
+  // Proyecto para el que se solicita acceso al código privado
+  const [accessRequest, setAccessRequest] = useState(null);
 
   const projects = [
     {
@@ -117,13 +120,14 @@ export const Projects = () => {
 
               {/* Enlace de Código / Solicitar acceso */}
               {project.isPrivate ? (
-                <a 
-                  href="#contacto" 
-                  className="text-amber-400 transition hover:text-amber-300 hover:underline"
-                  title="Código privado. Haz clic para solicitar acceso por contacto."
+                <button
+                  type="button"
+                  onClick={() => setAccessRequest(project.title)}
+                  className="cursor-pointer bg-transparent border-none p-0 font-mono text-[15px] text-amber-400 transition hover:text-amber-300 hover:underline"
+                  title="Código privado. Haz clic para solicitar acceso."
                 >
                   Código privado 🔒
-                </a>
+                </button>
               ) : (
                 <a 
                   href={project.codeUrl} 
@@ -165,6 +169,16 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+      )}
+      {/* MODAL DE CONTACTO PARA SOLICITAR ACCESO AL CÓDIGO PRIVADO */}
+      {accessRequest && (
+        <ContactModal
+          key={accessRequest}
+          open={!!accessRequest}
+          onClose={() => setAccessRequest(null)}
+          initialAsunto={`Solicito acceso al código de ${accessRequest}`}
+          initialMessage={`Hola, me interesa solicitar acceso al código del proyecto "${accessRequest}".`}
+        />
       )}
     </section>
   );
