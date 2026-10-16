@@ -1,0 +1,74 @@
+{
+  "featured": [
+    {
+      "id": "migration-script",
+      "title": "Migrador Automatizado SQLite a MySQL",
+      "description": "Script de migración automatizada de datos para la transición eficiente entre bases de datos relacionales.",
+      "tech": ["Java", "SQL", "MySQL", "SQLite"],
+      "github": "https://github.com/usuario/sqlite-to-mysql-migrator",
+      "live": "",
+      "status": "PRODUCCIÓN"
+    },
+    {
+      "id": "app-clima-mobile",
+      "title": "Aplicación Clima",
+      "description": "App móvil con React Native + Expo (SDK 57) y Expo Router. Clima actual por GPS, pronóstico 5 días / 24 h, búsqueda de ciudades y favoritos con Open-Meteo.",
+      "tech": ["React Native", "Expo", "Expo Router", "Open-Meteo"],
+      "github": "https://github.com/SilvioAlfredo/app-clima-mobile",
+      "live": "",
+      "status": "PRODUCCIÓN"
+    },
+    {
+      "id": "app-task",
+      "title": "App Task",
+      "description": "Gestor de tareas de escritorio en Rust + Slint para Linux. Múltiples listas, filtros, tema claro/oscuro, ES/EN y guardado local automático.",
+      "tech": ["Rust", "Slint", "Flatpak", "Linux"],
+      "github": "https://github.com/SilvioAlfredo/app-task",
+      "live": "",
+      "status": "PRODUCCIÓN"
+    },
+    {
+      "id": "biblioteca-horizonte",
+      "title": "Biblioteca Horizonte",
+      "description": "Sistema de gestión y reserva de recursos. Frontend Next.js 15 + Tailwind, backend Flask + SQLAlchemy + JWT.",
+      "tech": ["Next.js", "React", "Flask", "JWT", "SQLAlchemy"],
+      "github": "https://github.com/SilvioAlfredo/biblioteca-horizonte",
+      "live": "",
+      "status": "PRODUCCIÓN"
+    }
+  ],
+  "laboratory": [
+    {
+      "id": "robocode-tank",
+      "title": "TankXeneizes - Robocode Bot",
+      "description": "Equipo de tanques autónomos programados en Java para la arena de Robocode con estrategia de combate coordinada.",
+      "tech": ["Java", "Robocode", "AI Algorithms"],
+      "github": "https://github.com/usuario/robocode-tank-xeneizes",
+      "status": "EXPERIMENTO"
+    },
+    {
+      "id": "rust-cli",
+      "title": "Herramienta CLI en Rust",
+      "description": "Utilidad de línea de comandos desarrollada en Rust para exploración de rendimiento y manipulación rápida de archivos.",
+      "tech": ["Rust", "CLI"],
+      "github": "https://github.com/usuario/rust-cli-tool",
+      "status": "EXPERIMENTO"
+    },
+    {
+      "id": "braille-translator",
+      "title": "Traductor de Braille",
+      "description": "Herramienta de conversión y procesamiento de texto a notación Braille para apoyo en accesibilidad.",
+      "tech": ["Java", "Algoritmos"],
+      "github": "https://github.com/usuario/braille-translator",
+      "status": "EXPERIMENTO"
+    },
+    {
+      "id": "trivia-game",
+      "title": "Juego de Trivia Interactivo",
+      "description": "Juego de preguntas y respuestas en Java enfocado en lógica orientada a objetos y persistencia de puntajes.",
+      "tech": ["Java", "OOP"],
+      "github": "https://github.com/usuario/java-trivia-game",
+      "status": "EXPERIMENTO"
+    }
+  ]
+}

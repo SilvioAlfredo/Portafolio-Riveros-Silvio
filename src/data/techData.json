@@ -1,0 +1,36 @@
+{
+  "personal": {
+    "name": "Silvio Riveros",
+    "roles": ["Desarrollador", "Docente"],
+    "title": "Desarrollador de Software",
+    "shortBio": "Construyo aplicaciones web y soluciones de software con tecnologías modernas. Combino la rigurosidad de la ingeniería de software con la pasión por construir soluciones escalables.",
+    "availability": "Disponible para oportunidades laborales, proyectos freelance y colaboraciones.",
+    "email": "tuemail@ejemplo.com",
+    "social": {
+      "github": "https://github.com/tuusuario",
+      "linkedin": "https://linkedin.com/in/tuusuario"
+    }
+  },
+  "about": {
+    "degree": "Técnico Superior en Desarrollo de Software",
+    "description": "Me especializo en desarrollo backend y fullstack, con experiencia en lenguajes como Java, Spring Boot y tecnologías web modernas. Me enfoco en escribir código limpio, escalable y mantenible."
+  },
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Años de experiencia"
+    },
+    {
+      "value": "10+",
+      "label": "Proyectos en producción"
+    },
+    {
+      "value": "8+",
+      "label": "Proyectos académicos y universitarios"
+    },
+    {
+      "value": "Estudiante",
+      "label": "Formación continua"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Opción A: Aplicarlo a las secciones directamente */
+main > section,
+header,
+footer {
+  padding-left: 8% !important;
+  padding-right: 8% !important;
+}

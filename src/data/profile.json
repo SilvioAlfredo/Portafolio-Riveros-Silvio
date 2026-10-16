@@ -1,0 +1,30 @@
+{
+  "name": "Alfredo",
+  "role": "Desarrollador Java & Backend",
+  "location": "Córdoba, Argentina",
+  "about": "Desarrollador enfocado en el ecosistema Java, Spring Boot y arquitectura backend. Apasionado por la resolución de problemas lógicos, el diseño de sistemas eficientes y la creación de interfaces de usuario funcionales.",
+  "availability": "Disponible para proyectos y oportunidades laborales",
+  "email": "contacto@ejemplo.com",
+  "social": {
+    "github": "https://github.com/SilvioAlfredo",
+    "linkedin": "https://www.linkedin.com/in/silvioriveros"
+  },
+  "stats": [
+    {
+      "value": "2+",
+      "label": "Años de experiencia en desarrollo"
+    },
+    {
+      "value": "5+",
+      "label": "Proyectos desarrollados"
+    },
+    {
+      "value": "Java / Spring",
+      "label": "Especialidad técnica"
+    },
+    {
+      "value": "Formación continua",
+      "label": "Estado profesional"
+    }
+  ]
+}
