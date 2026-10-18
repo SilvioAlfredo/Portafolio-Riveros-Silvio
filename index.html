@@ -1,10 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio Riveros Silvio</title>
+    <script>
+      // ── GoatCounter: métricas de visitas sin cookies ──────────────
+      // Dashboard: https://alfredoriverosgc.goatcounter.com
+      (function () {
+        var site = 'alfredoriverosgc';
+        if (/^localhost$|^127(\.\d+){3}$/.test(location.hostname)) return; // no contar en dev
+        window.goatcounter = {
+          no_onload: false,
+          // SPA: si más adelante usás navegación por rutas (react-router),
+          // llamar window.goatcounter.count({ path: location.pathname })
+          // en cada cambio de ruta para registrar las visitas internas.
+        };
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = '//gc.zgo.at/count.js';
+        s.dataset.goatcounter = 'https://' + site + '.goatcounter.com/count';
+        document.head.appendChild(s);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
