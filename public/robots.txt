@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://silvioalfredo.github.io/Portafolio-Riveros-Silvio/sitemap.xml
