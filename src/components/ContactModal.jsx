@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-// Mismos parámetros que en Portafolio-Riveros-Silvio/js/form.js
-const SERVICE_ID = 'default_service';
+// Service ID explícito (antes se usaba el alias 'default_service' — apuntan al mismo servicio hoy;
+// explícito es más a prueba de futuro). Dashboard: dashboard.emailjs.com
+const SERVICE_ID = 'service_3kuskbl';
 const TEMPLATE_ID = 'template_gxu3hq9';
 const PUBLIC_KEY = 'b2V7O-ng_I3KyVUBo';
 
